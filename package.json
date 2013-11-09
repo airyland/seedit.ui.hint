@@ -1,20 +1,26 @@
 {
-  "name": "hint",
-  "description": "css3 hint",
-  "version": "0.1.1",
-  "homepage": "https://github.com/airyland/seedit.ui.hint",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:airyland/seedit.ui.hint.git"
-  },
-  "bugs": {
-    "url": "https://github.com/airyland/seedit.ui.hint/issues"
-  },
-  "family": "seedit",
-  "spm": {
-    "alias": {},
-    "output": [
-      "hint.css"
-    ]
-  }
+    "name": "hint",
+    "description": "css3 hint",
+    "version": "0.1.1",
+    "homepage": "https://github.com/airyland/seedit.ui.hint",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:airyland/seedit.ui.hint.git"
+    },
+    "bugs": {
+        "url": "https://github.com/airyland/seedit.ui.hint/issues"
+    },
+    "family": "seedit",
+    "spm": {
+        "alias": {},
+        "output": [
+            "hint.css"
+        ]
+    },
+    "devDependencies": {
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-cssmin": "~0.6.0",
+        "grunt-contrib-sass": "~0.4.1",
+        "grunt": "~0.4.1"
+    }
 }
